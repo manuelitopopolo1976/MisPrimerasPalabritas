@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: white !important;
+}
+a:hover{
+    color: rgb(241, 128, 22) !important;
+}
+
+
+html {
+    height: 100vh;
+}
+
+
+body {
+    background-image: url(10993.jpg);
+    background-size: cover;
+    margin: 0;
+    height: auto;
+}
+
+.caja{
+    width: 100%;
+    padding-top: 10px;
+    margin: 0px;
+    background-color: red ;
+    color: white ;
+    border:1px solid black ;
+    display: flex;
+    justify-content: space-between;
+}
+.titulo{
+    display: flex; 
+    background-color: red ;
+    color: white ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 4px 1px black; 
+    padding-left: 30px; 
+    margin-left: 10%;
+    letter-spacing: 5px;
+}
+.cajamenu{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+div > button{
+    color:rgb(255, 255, 255);
+    background-color: rgb(138, 165, 42);
+    padding: 5px;
+}
+.menuDesplegado{
+    background-color:rgb(66, 26, 247) ;
+    color:rgb(255, 255, 255) ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    border:1px solid black ;
+    padding: 2em;
+    position: absolute;
+    right: 0;
+    top: 83px ;
+}
+#menuDesplegado{
+    display: none;
+
+}
+.menuDesplegado li a{
+    text-decoration: none;
+}
+.menuDesplegado li:hover{
+    text-decoration:underline;
+    color: rgb(241, 128, 22);
+}
+
+.menuDesplegado li:active{
+    color:rgb(238, 125, 125);
+}
+
+ul li{
+    padding-block: 5px;
+}
+.entretenimiento1{
+    padding: 30px;
+    margin:30px ;
+    color:black ;
+    background-color: rgb(129, 230, 109) ;
+    display: inline-block;
+}
+.entretenimiento1 a{
+    padding-top: 20px;
+    color: black !important;
+    
+}
+.entretenimiento2{
+    padding: 30px;
+    margin:30px ;
+    color:black ;
+    background-color: rgb(129, 230, 109) ;
+    display: inline-block;
+}
+.entretenimiento2 a{
+    padding-top: 20px;
+    color: black !important;
+    
+}

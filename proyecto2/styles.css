@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgb(214, 218, 34), red);
+    overflow-x: hidden ;    
+}
+a{
+    color: white !important;
+}
+a:hover{
+    color: rgb(241, 128, 22) !important;
+}
+
+.caja{
+    width: 100%;
+    padding-top: 10px;
+    margin: 0px;
+    background-color: red ;
+    color: white ;
+    border:1px solid black ;
+    display: flex;
+    justify-content: space-between;
+}
+.menuDesplegado{
+    background-color:rgb(214, 230, 125) ;
+    color:rgb(37, 2, 100) ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    border:1px solid black ;
+    padding: 2em;
+    position: absolute;
+    right: 0;
+    top: 83px ;
+}
+.menuDesplegado li a{
+    text-decoration: none;
+}
+.menuDesplegado li:hover{
+    text-decoration:underline;
+    color: rgb(241, 128, 22);
+}
+.menuDesplegado li a:hover{
+    text-decoration:underline;
+    color: rgb(241, 128, 22);
+}
+.menuDesplegado li:active{
+    color:rgb(238, 125, 125);
+}
+
+ul li{
+    padding-block: 5px;
+}
+.instrucciones{
+    background-color: aquamarine;
+    color: black;
+    padding: 20px;
+}
+
+.titulo{
+    display: flex; 
+    background-color: red ;
+    color: white ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 4px 1px black; 
+    padding-left: 30px; 
+    margin-left: 10%;
+    letter-spacing: 5px;
+}
+.cajamenu{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+div > button{
+    color:rgb(255, 255, 255);
+    background-color: rgb(138, 165, 42);
+    padding: 5px;
+}
+.menuDesplegado{
+    background-color:rgb(66, 26, 247) ;
+    color:rgb(255, 255, 255) ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    border:1px solid black ;
+    padding: 2em;
+    position: absolute;
+    right: 0;
+    top: 83px ;
+}
+#menuDesplegado{
+    display: none;
+
+}
+.menuDesplegado li a{
+    text-decoration: none;
+}
+.menuDesplegado li:hover{
+    text-decoration:underline;
+    color: rgb(241, 128, 22);
+}
+
+.menuDesplegado li:active{
+    color:rgb(238, 125, 125);
+}
+
+ul li{
+    padding-block: 5px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;    
+}
+.cajita{
+    margin: 20px;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    box-shadow: 3px 3px 3px black;
+    border: 1px solid black; 
+    font-size: 3em;
+    border-radius: 10px;
+    transition: transform .4s linear;
+  
+}
+.contenedor i:hover{
+    transform: 
+               scale(1.8)
+               translate(1%)
+
+}
+
+.piepagina{
+    background-color: black;
+    padding: 20px;
+    margin-top:5rem;
+
+}
+
+.piepagina a{
+    color: white;
+    transition: .8s;
+}
+.piepagina a:hover{
+    color:rgb(194, 194, 194) ;
+
+}
+#contenedorPalabra{
+    justify-content: center;
+    position:fixed;
+    bottom: 1em;
+    left: 0vw;
+    right: 0vw;
+    padding: 1em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: none;
+}
+#variacionPalabra{
+    width: auto;
+    font-size: 2.5rem;
+    color:rgb(9, 11, 126) ;
+    background-color:white ;
+    border: 2px solid black;
+    border-radius:15px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-inline:  100px;
+
+}
